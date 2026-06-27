@@ -25,10 +25,7 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Chess ♟️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Reading Tech Blogs 📖
+              <ImPointRight /> Exploring E-commerce & Dropshipping 🛒
             </li>
             <li className="about-activity">
               <ImPointRight /> Traveling and Exploring New Places 🌍
