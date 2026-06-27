@@ -9,6 +9,7 @@ import Toolstack from "./Toolstack";
 import Experience from "./Experience";
 import Education from "./Education";
 import Certifications from "./Certifications";
+import Achievement from "./Achievement";
 
 function About() {
   return (
@@ -39,6 +40,7 @@ function About() {
               <img src={laptopImg} alt="about" className="img-fluid" />
             </Col>
           </Row>
+          <Achievement />
           <Experience />
           <Education />
           <Certifications />

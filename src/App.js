@@ -44,28 +44,7 @@ function App() {
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
-        <a
-          href="mailto:manasbhole16@gmail.com"
-          style={{
-            position: "fixed",
-            bottom: "20px",
-            right: "20px",
-            backgroundColor: "#c770f0",
-            color: "white",
-            padding: "15px",
-            borderRadius: "50%",
-            boxShadow: "0px 4px 10px rgba(0,0,0,0.3)",
-            zIndex: 1000,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            textDecoration: "none",
-            fontSize: "24px"
-          }}
-          title="Contact Me"
-        >
-          📧
-        </a>
+
       </div>
     </Router>
   );

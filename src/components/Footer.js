@@ -43,7 +43,6 @@ function Footer() {
               <a
                 href="mailto:manasbhole16@gmail.com"
                 style={{ color: "white" }}
-                target="_blank" 
                 rel="noopener noreferrer"
               >
                 <FaEnvelope />

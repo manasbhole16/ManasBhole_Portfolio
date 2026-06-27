@@ -5,37 +5,76 @@ import {
   SiPowerbi,
   SiPython,
   SiMysql,
-  SiOpenai,
-  SiGoogle,
+  SiJavascript,
+  SiTypescript,
+  SiPostgresql,
+  SiMongodb,
+  SiFirebase,
+  SiTableau,
+  SiAmazonaws,
+  SiDocker,
+  SiLinux,
+  SiSocketdotio
 } from "react-icons/si";
-import { FaDatabase } from "react-icons/fa";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftexcel fontSize={"24px"} />
-        <div className="tech-icons-text">Advanced Excel</div>
+        <SiPython fontSize={"24px"} />
+        <div className="tech-icons-text">Python</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJavascript fontSize={"24px"} />
+        <div className="tech-icons-text">JavaScript</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript fontSize={"24px"} />
+        <div className="tech-icons-text">TypeScript</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql fontSize={"24px"} />
+        <div className="tech-icons-text">SQL</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql fontSize={"24px"} />
+        <div className="tech-icons-text">PostgreSQL</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb fontSize={"24px"} />
+        <div className="tech-icons-text">MongoDB</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase fontSize={"24px"} />
+        <div className="tech-icons-text">Firebase</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPowerbi fontSize={"24px"} />
         <div className="tech-icons-text">Power BI</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPython fontSize={"24px"} />
-        <div className="tech-icons-text">Python</div>
+        <SiTableau fontSize={"24px"} />
+        <div className="tech-icons-text">Tableau</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaDatabase fontSize={"24px"} />
-        <div className="tech-icons-text">SQL</div>
+        <SiMicrosoftexcel fontSize={"24px"} />
+        <div className="tech-icons-text">Advanced Excel</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiOpenai fontSize={"24px"} />
-        <div className="tech-icons-text">ChatGPT</div>
+        <SiAmazonaws fontSize={"24px"} />
+        <div className="tech-icons-text">AWS</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGoogle fontSize={"24px"} />
-        <div className="tech-icons-text">Gemini Pro</div>
+        <SiDocker fontSize={"24px"} />
+        <div className="tech-icons-text">Docker</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLinux fontSize={"24px"} />
+        <div className="tech-icons-text">Linux</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSocketdotio fontSize={"24px"} />
+        <div className="tech-icons-text">Socket.io</div>
       </Col>
     </Row>
   );

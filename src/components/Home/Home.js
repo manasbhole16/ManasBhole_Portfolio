@@ -121,7 +121,6 @@ function Home() {
               <li className="social-icons">
                 <a
                   href="mailto:manasbhole16@gmail.com"
-                  target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
